@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.license       = 'MIT'
 
+  s.add_development_dependency 'bundler', '~> 1.13'
+  s.add_development_dependency 'rake', '~> 11.2'
+
   s.add_runtime_dependency 'childprocess', '~> 0.8'
   s.add_runtime_dependency 'settingslogic', '~> 2.0'
   s.add_runtime_dependency 'thor', '~> 0.20'
